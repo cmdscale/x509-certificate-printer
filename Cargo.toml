@@ -1,7 +1,14 @@
 [package]
-name = "cert-printer"
+name = "x509-certificate-printer"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+description = "Parse and print X.509 certificate information in human-readable and PEM formats."
+repository = "https://github.com/cmdscale/x509-certificate-printer"
+readme = "README.md"
+license = "MIT"
+authors = ["Tilman Baumann <tilman.baumann@cmdscale.com>"]
+keywords = ["x509", "certificate", "pem", "der", "x509-parser"]
+categories = ["command-line-utilities", "cryptography"]
 
 [dependencies]
 x509-parser = "0.18.1"

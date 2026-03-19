@@ -1,4 +1,4 @@
-use cert_printer::PrettyPrinter;
+use x509_certificate_printer::PrettyPrinter;
 use clap::Parser;
 use std::fs;
 use std::path::PathBuf;
