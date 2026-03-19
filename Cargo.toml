@@ -1,0 +1,17 @@
+[package]
+name = "cert-printer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+x509-parser = "0.18.1"
+clap = { version = "4", features = ["derive"] }
+hex = "0.4"
+base64 = "0.22"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "cert-printer"
+path = "src/main.rs"
